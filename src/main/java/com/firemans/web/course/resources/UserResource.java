@@ -17,8 +17,6 @@ import org.springframework.web.servlet.support.ServletUriComponentsBuilder;
 import com.firemans.web.course.entities.User;
 import com.firemans.web.course.services.UserService;
 
-import jakarta.servlet.Servlet;
-
 @RestController
 @RequestMapping(value = "/users")
 public class UserResource {
